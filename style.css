@@ -1,0 +1,151 @@
+.gravity{
+    color: black;
+    font-size: 50px;
+}
+.header {
+    height: 60px;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #505a69;
+    color: #fff;
+    padding: 15px 0;
+    z-index: 1000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .brand-text {
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 700px;
+  }
+
+  
+  
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .search-input {
+    width: 600px;
+    height: 30px;
+    padding: 8px;
+    left: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #424344;
+    color: #fff;
+    font-size: large;
+  }
+  .search-container {
+    text-align: center;
+  }
+
+  
+  .sidebar {
+    width: 200px; 
+    background-color:  #424344;
+    padding: 20px;
+    height: 450px;
+  }
+  
+  .main-content {
+    flex: 1; 
+    padding: 20px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 200px auto; 
+    gap: 20px; 
+  }
+  
+  .sidebar {
+    background-color: #424344;
+    padding: 20px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  .container {
+    position: relative;
+  }
+  
+  .sidebar {
+    position: absolute;
+    left: 50px;
+    width: 220px;
+    height: 420px;
+    background-color:  #424344;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .main-content {
+    margin-left: 500px; 
+    padding: 20px;
+  }
+  .main-content {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .bottom-center {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    width: 700px;
+    height: 60px; 
+    transform: translateX(-50%);
+    background-color: #424344;
+    padding: 50px;
+    border-radius: 20px;
+  }
+
+  .card-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    left: 70%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #424344;
+  }
